@@ -48,4 +48,4 @@ spec:
       targetPort: 3000
   selector:
     workload.user.cattle.io/workloadselector: apps.deployment-default-juice-shop
-  type: ClusterIP
+  type: LoadBalancer
